@@ -23,7 +23,9 @@ form {
         display: block;
         width: 20%;
         float: left;
+        padding: 7px 0 0 0;
         font-size: 1.0em;
+        line-height: 20px;
         font-weight: bold;
         color: $form-label-color;
         abbr {
@@ -127,21 +129,29 @@ form {
   input[type=date],
   textarea {
     width: calc(80% - #{$text-input-total-padding});
-    border: $border-width solid #c9d0d6;
-    @include rounded;
-    font-size: 0.95em;
+    border: $border-width solid #cdcdcd;
     @include sans-family;
     outline: none;
-    padding: 8px $text-input-horizontal-padding 7px;
+    padding: 7px $text-input-horizontal-padding 6px;
+    line-height: 20px;
+    font-size: 14px;
 
     &:focus {
-      border: $border-width solid #99a2aa;
-      @include shadow(0,0,4px,#99a2aa);
+      border: $border-width solid darken(#cdcdcd, 8%);
     }
   }
 
   input[type=date] {
     width: calc(100% - #{$text-input-total-padding});
+  }
+
+  select {
+    height: 35px;
+    font-size: 14px;
+    background: #ffffff;
+    border-radius: none;
+    border: 1px solid #cdcdcd;
+    padding: 0 $text-input-horizontal-padding 0 $text-input-horizontal-padding;
   }
 
   fieldset > ol > li {
@@ -257,9 +267,7 @@ $sidebar-inner-content-width: $sidebar-width - ($section-padding * 2);
 
   label {
     display: block;
-    text-transform: uppercase;
     color:  $form-label-color;
-    font-size: 0.9em;
     font-weight: bold;
   }
 
@@ -296,6 +304,7 @@ form.filter_form {
       }
       select {
         width: $side-by-side-filter-select-width;
+        padding: 0 3px;
       }
     }
 

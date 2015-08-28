@@ -4,13 +4,13 @@
 
 // Colors
 $body-background-color: #FFF !default;
-$primary-color: #5E6469 !default;
+$primary-color: #44494D !default;
 $secondary-color: #f0f0f0 !default;
 $text-color: #323537 !default;
 $link-color: #38678b !default;
 $section-header-text-color: $primary-color !default;
-$current-menu-item-background: lighten($primary-color, 12%) !default;
-$hover-menu-item-background: lighten($primary-color, 12%) !default;
+$current-menu-item-background: lighten($primary-color, 8%) !default;
+$hover-menu-item-background: lighten($primary-color, 8%) !default;
 $table-stripe-color: lighten($primary-color, 57%) !default;
 $table-selected-color: #d9e4ec !default;
 $error-color: #932419 !default;
