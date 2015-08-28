@@ -1,5 +1,5 @@
 @mixin section-header {
-  background: $secondary-gradient-stop;
+  background: lighten($secondary-gradient-stop, 3%);
   border: solid 1px #cdcdcd;
 
   font-size: 1em;
@@ -13,8 +13,8 @@
 
 @mixin section-background {
   background: #f4f4f4;
-  @include rounded(4px);
-  @include inset-shadow(0,1px,4px, #ddd);
+  @include rounded(0px);
+  @include inset-shadow(0, 0, 1px, #d4d4d4);
 }
 
 @mixin section {

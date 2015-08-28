@@ -68,8 +68,6 @@ table.index_table {
     background: none;
     color: $primary-color;
     @include no-shadow;
-    @include text-shadow;
-    text-transform: uppercase;
     border-bottom: 1px solid #ccc;
   }
   tr.odd td { background: darken($table-stripe-color, 3%); }
@@ -91,11 +89,8 @@ table.index_table {
     @include no-shadow;
     @include no-gradient;
     width: 150px;
-    font-size: 0.9em;
     padding-left: 0;
-    text-transform: uppercase;
     color: $primary-color;
-    @include text-shadow;
   }
   td {
     .empty {
