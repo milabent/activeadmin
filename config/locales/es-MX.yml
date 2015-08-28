@@ -36,7 +36,7 @@ es-MX:
       "no": "No"
     main_content: "Por favor implemente %{model}#main_content para mostrar contenido."
     logout: "Salir"
-    powered_by: "Powered by %{active_admin} %{version}"
+    powered_by: ""
     sidebars:
       filters: "Filtros"
     pagination:

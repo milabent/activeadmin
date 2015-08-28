@@ -36,7 +36,7 @@ el:
       "no": "Δεν"
     main_content: "Παρακαλώ υλοποιήστε την %{model}#main_content για να εμφανίσετε περιεχόμενο."
     logout: "Αποσύνδεση"
-    powered_by: "Powered by %{active_admin} %{version}"
+    powered_by: ""
     sidebars:
       filters: "Φίλτρα"
     pagination:

@@ -40,7 +40,7 @@
       "no": "否"
     main_content: "請實作 %{model}#main_content 以顯示內容。"
     logout: "登出"
-    powered_by: "Powered by %{active_admin} %{version}"
+    powered_by: ""
     sidebars:
       filters: "篩選條件"
       search_status: "搜尋條件"
