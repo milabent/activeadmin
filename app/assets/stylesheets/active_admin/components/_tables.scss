@@ -37,7 +37,7 @@ table.index_table {
     &.sorted-desc a {  background-position: 0 -56px;}
 
     &.sorted-asc, &.sorted-desc {
-      @include gradient(darken($secondary-gradient-start, 5%), darken($secondary-gradient-stop, 5%));
+      background: darken($secondary-gradient-stop, 5%);
     }
 
     &:last-child {
@@ -46,7 +46,7 @@ table.index_table {
 
   }
 
-  tr.even td { background: $table-stripe-color; }
+  tr.even td { background: #f4f4f4; }
 
   tr.selected td {
     background: $table-selected-color;
@@ -70,8 +70,8 @@ table.index_table {
     @include no-shadow;
     border-bottom: 1px solid #ccc;
   }
-  tr.odd td { background: darken($table-stripe-color, 3%); }
-  tr.even td { background: $table-stripe-color; }
+  tr.odd td { background: darken(#f4f4f4, 5%); }
+  tr.even td { background: #f4f4f4; }
 }
 
 // -------------------------------------- Resource Attributes Table
